@@ -1,6 +1,5 @@
 {
-  "name": "@example/basics",
-  "type": "module",
+  "name": "@xididri/astro-eslint-jsx-a11y",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -12,5 +11,11 @@
   },
   "dependencies": {
     "astro": "^1.6.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.41.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-astro": "^0.20.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1"
   }
 }

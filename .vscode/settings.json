@@ -1,0 +1,11 @@
+{
+	"eslint.lintTask.options": "-c .eslintrc.js --ignore-path .eslintignore --ext js,jsx,ts,tsx,.astro .",
+	"eslint.validate": [
+		"html",
+		"javascript",
+		"typescript",
+		"astro",
+		"javascriptreact", // jsx
+		"typescriptreact", // tsx
+	]
+}
